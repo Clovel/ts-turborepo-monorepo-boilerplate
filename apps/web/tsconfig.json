@@ -3,14 +3,14 @@
   "display": "Vite + React + TypeScript web app",
   "extends": "@/tsconfig/tsconfig.vite.json",
   "compilerOptions": {
-    "baseUrl": "src"
+    "baseUrl": "src",
+    "outDir": "dist"
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
     "vite.config.ts",
-    ".eslintrc.js",
     "src"
   ],
   "exclude": [

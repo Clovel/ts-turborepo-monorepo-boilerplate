@@ -13,7 +13,6 @@
       "dom.iterable"
     ],
     "jsx": "react",
-    "outDir": "./build",
     "baseUrl": "./",
     "typeRoots": [
       "node_modules/@types",

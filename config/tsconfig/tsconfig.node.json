@@ -3,7 +3,6 @@
   "display": "NodeJS",
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "outDir": "dist",
     "target": "ES6",
     "module": "commonjs",
     "lib": [

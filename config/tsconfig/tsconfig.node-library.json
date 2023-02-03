@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "NodeJS Library",
+  "extends": "./tsconfig.node.json",
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "allowJs": false
+  }
+}

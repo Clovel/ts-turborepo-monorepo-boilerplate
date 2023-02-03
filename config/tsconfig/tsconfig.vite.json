@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "TSConfig template for React web apps built with Vite",
+  "extends": "./tsconfig.react-library.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "useDefineForClassFields": true,
+    "allowSyntheticDefaultImports": true
+  }
+}

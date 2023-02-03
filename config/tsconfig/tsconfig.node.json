@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "NodeJS",
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "lib": [
+      "ES2015",
+      "ES2020",
+      "ESNext"
+    ],
+    "allowJs": true
+  }
+}

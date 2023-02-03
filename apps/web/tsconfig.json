@@ -1,5 +1,19 @@
 {
-  "extends": "tsconfig/nextjs.json",
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Vite + React + TypeScript web app",
+  "extends": "@/tsconfig/tsconfig.vite.json",
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "vite.config.ts",
+    ".eslintrc.js",
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

@@ -4,6 +4,7 @@
   "private": true,
   "workspaces": [
     "apps/*",
+    "config/*",
     "packages/*"
   ],
   "scripts": {
@@ -12,14 +13,14 @@
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "packageManager": "yarn@1.22.19",
+  "dependencies": {},
   "devDependencies": {
     "eslint-config-custom": "*",
     "prettier": "latest",
     "turbo": "latest"
-  },
-  "engines": {
-    "node": ">=14.0.0"
-  },
-  "dependencies": {},
-  "packageManager": "yarn@1.22.19"
+  }
 }

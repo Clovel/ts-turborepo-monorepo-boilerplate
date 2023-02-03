@@ -1,10 +1,15 @@
-import { Button } from "ui";
+import React from 'react';
+import Button from '@/ui';
 
-export default function Docs() {
+const Docs: React.FC = () => {
   return (
     <div>
-      <h1>Docs</h1>
+      <h1>
+        Docs
+      </h1>
       <Button />
     </div>
   );
-}
+};
+
+export default Docs;

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Meteor",
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "lib": [
+      "es6",
+      "es2020",
+      "esnext",
+      "dom",
+      "dom.iterable"
+    ],
+    "jsx": "react",
+    "outDir": "./build",
+    "baseUrl": "./",
+    "typeRoots": [
+      "node_modules/@types",
+      "./@types/**",
+      "./imports/@types/**"
+    ],
+    "types": [
+      "node",
+      "meteor"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "preserveSymlinks": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "./server",
+    "./client",
+    "./imports",
+    "./@types"
+  ],
+  "exclude": [
+    "./node_modules",
+    "./build",
+    "./.meteor",
+    "./packages/**"
+  ]
+}

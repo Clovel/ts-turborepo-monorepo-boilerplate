@@ -1,5 +1,15 @@
 {
-  "extends": "tsconfig/nextjs.json",
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Monorepo docs",
+  "extends": "@/tsconfig/tsconfig.nextjs.json",
+  "include": [
+    "next-env.d.ts",
+    "next.config.js",
+    "**/*.ts",
+    "**/*.tsx",
+    ".eslintrc.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

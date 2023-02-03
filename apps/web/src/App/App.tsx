@@ -30,9 +30,20 @@ const App: React.FC = () => {
             alt="React logo"
           />
         </a>
+        <a
+          href="https://www.typescriptlang.org/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/ts-logo.svg"
+            className="logo typescript"
+            alt="TypeScript logo"
+          />
+        </a>
       </div>
       <h1>
-        Vite + React
+        Vite + React + TypeScript
       </h1>
       <div className="card">
         <button onClick={(): void => setCount((count) => count + 1)}>
